@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name = "viewport" content = "width=device-width, initial-scale=1.0" />
+        <title>Nutrition Game</title>  
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <h1>Nutrition Matching Game</h1>
+        <p>Drag the Nutrition phrase with its matching statement</p>
+        <main>
+                <div>
+                    <ul class="draggable-list">
+                        <li id="e1" draggable="true">What is High Blood?</li>
+                        <li id="e2" draggable="true">What is a Vaccine?</li>
+                        <li id="e3" draggable="true">Prostate Cancer</li>
+                        <li id="e4" draggable="true">Malinutrion</li>
+                        <li id="e5" draggable="true">brah brah brah</li>
+                    </ul>
+                </div>
+
+                <div>
+                    <ul class="draggable-list">
+                        <li id="s1" draggable="true">your blood preasure is high</li>
+                        <li id="s2" draggable="true">to help fight whatever</li>
+                        <li id="s3" draggable="true">cancer for men</li>
+                        <li id="s4" draggable="true">not eating healthy</li>
+                        <li id="s5" draggable="true">brah brah brah brah</li>
+                    </ul>
+                </div>
+        </main>
+
+        <div id="endMessage">
+            <h3>Well done!</h3>
+            
+            <table>
+                <tr>
+                    <th>Nutrition</th>
+                    <th>Answer</th>
+                </tr>
+                <tr>
+                    <td>What is High Blood?</td>
+                    <td>your blood preasure is high</td>
+                </tr>
+                <tr>
+                    <td>What is a Vaccine?</td>
+                    <td>to help fight whatever</td>
+                </tr>
+                <tr>
+                    <td>Prostate Cancer</td>
+                    <td>cancer for men</td>
+                </tr>
+                <tr>
+                    <td>Malinutrion</td>
+                    <td>not eating healthy</td>
+                </tr>
+                <tr>
+                    <td>brah brah brah brah</td>
+                    <td>brah brah brah brah</td>
+                </tr>
+            </table>
+        
+            <button onclick="playAgain()">Play Again</button>
+          </div>
+        
+          <script src="script.js"></script>
+    </body>
+</html>
